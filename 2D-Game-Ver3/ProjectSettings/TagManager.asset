@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - purple
+  - red
+  - blue
+  - yellow
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 2903279557
+    locked: 0
+  - name: levellayers
+    uniqueID: 1309548475
+    locked: 0
+  - name: story objects
+    uniqueID: 4005452619
+    locked: 0
+  - name: sprite
+    uniqueID: 1399941991
+    locked: 0
+  - name: plants
+    uniqueID: 245256141
+    locked: 0

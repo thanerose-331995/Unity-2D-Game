@@ -121,6 +121,8 @@
     <Compile Include="Assets\Customs\Scripts\ColourCodes.cs" />
     <Compile Include="Assets\Customs\Scripts\DoorOpen.cs" />
     <Compile Include="Assets\Customs\Scripts\Eye_colour.cs" />
+    <Compile Include="Assets\Customs\Scripts\LightBeams.cs" />
+    <Compile Include="Assets\Customs\Scripts\Mirrors.cs" />
     <Compile Include="Assets\Customs\Scripts\Object_colour.cs" />
     <Compile Include="Assets\Customs\Scripts\Player_colour.cs" />
     <Compile Include="Assets\Customs\Scripts\Player_Movement.cs" />
@@ -769,16 +771,16 @@
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
     <None Include="Assets\Fungus\Thirdparty\FungusLua\Resources\Lua\fungus.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>E:/2D-Game-Ver3/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>E:/Unity-2D-Game/2D-Game-Ver3/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/2D-Game-Ver3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/Unity-2D-Game/2D-Game-Ver3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/2D-Game-Ver3/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/Unity-2D-Game/2D-Game-Ver3/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/2D-Game-Ver3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/Unity-2D-Game/2D-Game-Ver3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -961,7 +963,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
-      <HintPath>E:/2D-Game-Ver3/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+      <HintPath>E:/Unity-2D-Game/2D-Game-Ver3/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

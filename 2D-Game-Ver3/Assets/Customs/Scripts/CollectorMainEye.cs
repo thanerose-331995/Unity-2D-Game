@@ -30,6 +30,7 @@ public class CollectorMainEye : MonoBehaviour {
             maineye = ColourCodes.colourPurple;
             thiscolour = ColourCodes.colourPurple;
             rend.material.color = maineye;
+            Debug.Log("test");
         }
     }
 }

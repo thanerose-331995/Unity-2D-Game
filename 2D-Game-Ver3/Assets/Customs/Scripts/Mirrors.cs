@@ -5,7 +5,10 @@ using UnityEngine;
 public class Mirrors : MonoBehaviour {
 
     private bool inTrigger = false;
+    private bool lightTrigger = false;
     private bool flag = true;
+    public GameObject recievingBeam, newBeam; 
+    private SpriteRenderer rend;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -13,6 +16,11 @@ public class Mirrors : MonoBehaviour {
         {
             inTrigger = true;
             Debug.Log("player");
+        }
+        if(other.gameObject == recievingBeam)
+        {
+            lightTrigger = true;
+            Debug.Log("light");
         }
     }
     void OnTriggerExit2D(Collider2D other)
@@ -36,7 +44,7 @@ public class Mirrors : MonoBehaviour {
             {
                 if (flag)
                 {
-                    transform.Rotate(0, 0, 1 * 2);
+                    transform.Rotate(0, 0, 1 * 3);
                     flag = false;
                 }
                 else
@@ -46,6 +54,12 @@ public class Mirrors : MonoBehaviour {
                 }
             }
 
+        }
+
+        if (lightTrigger)
+        {
+            rend = newBeam.GetComponent<SpriteRenderer>();
+            rend.enabled = true;
         }
     }
 }

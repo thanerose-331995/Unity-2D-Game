@@ -24,6 +24,7 @@ public class Player_Movement : MonoBehaviour {
         moveInputHorizonal = Input.GetAxis("Horizontal");
         moveInputVertical = Input.GetAxis("Vertical");
 
+        rb.freezeRotation = true;
         rb.velocity = new Vector2(moveInputHorizonal * speed, moveInputVertical * speed); //calculating the coordinates in real time
 
         if(facingRight == false && moveInputHorizonal > 0)

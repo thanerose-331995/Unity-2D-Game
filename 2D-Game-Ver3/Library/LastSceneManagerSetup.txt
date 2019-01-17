@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/New Midnight.unity
+- path: Assets/Scenes/Midnight.unity
   isLoaded: 1
   isActive: 1
